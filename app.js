@@ -103,7 +103,7 @@ function sheet(title, text, buttons) {
     };
   });
 }
-const fmtSize = (n) => n >= 1e9 ? `${(n / 1e9).toFixed(2)} GB` : n >= 1e6 ? `${(n / 1e6).toFixed(1)} MB` : `${Math.max(1, Math.round(n / 1e3))} KB`;
+const fmtSize = (n) => n >= 1e9 ? `${(n / 1e9).toFixed(2)} GB` : n >= 1e6 ? `${(n / 1e6).toFixed(1)} MB` : n > 0 ? `${Math.max(1, Math.round(n / 1e3))} KB` : "0 KB";
 const fmtDur = (s) => {
   if (!s) return '';
   s = Math.round(s);
