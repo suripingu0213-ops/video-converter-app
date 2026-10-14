@@ -1,0 +1,16 @@
+{
+  "name": "動画変換",
+  "short_name": "動画変換",
+  "description": "YouTube・ニコニコ動画を変換して、オフラインで見られるアプリ。",
+  "lang": "ja",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f2f2f6",
+  "theme_color": "#5856d6",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
